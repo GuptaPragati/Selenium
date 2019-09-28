@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+<listeners >
+<listener class-name="guru99Site.ExtentReportsListeners"/>
+</listeners >
+
+  <test name="day1Test">
+  
+<classes>
+	 <class name="guru99Site.Guru99_Day1Test"/>
+</classes>
+ 
+ </test>
+ 
+  <test name="day5Test">
+ 
+	 <classes>
+		 <class name="guru99Site.Guru99_Day5Test">
+		</class>
+	</classes>
+
+ </test>
+ 
+ <test name="day6Test">
+ 
+	 <classes>
+		<class name="guru99Site.Guru99_Day6Test"/>
+	 </classes>
+
+ </test>
+ 
+</suite> <!-- Suite -->
